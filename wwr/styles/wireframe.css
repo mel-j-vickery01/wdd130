@@ -5,6 +5,6 @@
     width: 150px;
 }
 
-.footer-one{
+.footer-one, .card h2{ 
     color: orange;
 }
