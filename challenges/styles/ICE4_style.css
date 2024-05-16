@@ -1,0 +1,32 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: aqua;
+  }
+main{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+   
+  }
+ol{
+    width: 350px;
+    margin: 0 auto;
+    text-align: left;
+  }
+img{
+    width: 30%;
+  }
+
+.blacktext{
+    font-size: small;
+}
+
+#bigtext:hover{
+    color: black;
+}
+
+#bigtext{
+    color: white;
+    font-size: 50px;
+}
