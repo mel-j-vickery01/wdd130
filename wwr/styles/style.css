@@ -18,7 +18,7 @@
   --paragraph-color-on-color: rgb(0, 0, 0); /* paragraph text on a colored background */ 
   --paragraph-background-color: #07D8FA  ;
   --nav-link-color: #07D8FA;
-  --nav-background-color: #FAE643;
+  --nav-background-color: #FA852C;
   --nav-hover-link-color: grey;
   --nav-hover-background-color: #396E94;
 }
@@ -78,13 +78,13 @@ header{
 }
 #background{
     height: 725px;
-    background-color: #fa808c;
+    background-color: var(--secondary-color);
 }
 .msg{
- background-color: #07D8FA;
+ background-color: var(--primary-color);
 }
 footer{
-    background-color: lightseagreen;
+    background-color: var(--primary-color);
     color: var(--paragraph-color-on-color);
     font-size: 1.2em;
 }
@@ -93,7 +93,7 @@ footer a{
     text-decoration: none;
 }
 footer p a:hover{
-    color: #FA852C;
+    color: var(--nav-background-color);
     text-decoration: underline;
 }
 h4{
