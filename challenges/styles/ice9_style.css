@@ -1,0 +1,15 @@
+#headingimg{
+    width: 100%;
+}
+.article{
+    text-align: center;
+}
+#content{
+    width: 250px;
+    margin: 0 auto;
+    background-color: bisque;
+}
+footer{
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+}

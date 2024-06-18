@@ -161,7 +161,6 @@ body{
     background-color: var(--secondary-color);
     grid-column: 1/11;
     grid-row: 4/9;
-    z-index: -1;
 }
 .mountans{
     margin: 100px 0;
