@@ -1,3 +1,6 @@
+#content{
+    border-radius: 30px;
+}
 #headingimg{
     width: 100%;
 }
@@ -12,14 +15,35 @@
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
 }
 .upper{
     grid-row: 1/2;
     font-size: x-large;
-    justify-content: center;
+    justify-items: center;
     align-content: center;
+    margin-bottom: 0px;
 }
 .lower{
+    grid-row: 2/3;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    margin-top: 0px;
+}
+.read{
+grid-column: 1/2;
+border-right: solid beige 1px ;
+}
+.views{
+    grid-column: 2/3;
+}
+.comments{
+    grid-column: 3/4;
+    border-left: solid beige 1px ;
+}
+footer div{
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
