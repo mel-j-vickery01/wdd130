@@ -11,5 +11,15 @@
 }
 footer{
     display: grid;
-    grid-template: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.upper{
+    grid-row: 1/2;
+    font-size: x-large;
+    justify-content: center;
+    align-content: center;
+}
+.lower{
+    justify-content: center;
+    align-items: center;
 }
